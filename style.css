@@ -1,0 +1,36 @@
+.corpo{
+    background: #d3c8d8;
+}
+
+.cabecalho {
+    background-image: url("banner2.jpg"); /*Importo uma imagem para o cabe*/
+    padding: 3%;
+}
+.ul-cabecalho {
+    list-style: none;
+}
+
+.li-cabecalho {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+.tabela-colaboradores {
+    border: black 2px solid;
+    margin: 10% 45%;
+    
+}
+
+.celulas {
+    border: black 2px solid;
+}
+
+.linha-dados {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+}

@@ -5,26 +5,41 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <header>
-            <ul>
-                <li>Nome: David Esly</li>
-                <li>Setor: NTI</li>
-                <li>Cargo: Analista de NOC</li>
-                <li>Matricula: 5447</li>
+    <body class="corpo">
+        <header class="cabecalho">
+            <ul class="ul-cabecalho">
+                <li class="li-cabecalho">Nome: David Esly</li>
+                <li class="li-cabecalho">Setor: NTI</li>
+                <li class="li-cabecalho">Cargo: FullStack Developer</li>
             </ul>
         </header>
-        <table>
-            <tr>
-                <td>Teste</td>
-                <td>Teste2</td>
-                <td>Teste3</td>
-            </tr>
-            <tr>
-                <td>TEste4</td>
-                <td>Teste5</td>
-                <td>Teste6</td>
-            </tr>
+        <table class="tabela-colaboradores">
+            <tbody> <!--Assim como o body define o corpo da tabela-->
+                <thead> <!--Cabeçalho da tabela tudo dentro dessa tag será mostrado na primeira linha da tabela com o conteudo por default centralizado-->
+                    <caption>My first table</caption> <!--Titulo da tabela-->
+                    <tr>
+                        <th class="celulas">Nome</th> <!--TH Uso similar ao H1 definimos o título de cada coluna na tabela-->
+                        <th class="celulas">Matricula</th>
+                        <th class="celulas">Setor</th>
+                    </tr>
+                </thead>
+                <tr class="linha-dados">
+                    <td class="celulas">David</td>
+                    <td class="celulas">5447</td>
+                    <td class="celulas">NTI</td>
+                </tr>
+                <tr class="linha-dados">
+                    <td class="celulas">Clotilde</td>
+                    <td class="celulas">71</td>
+                    <td class="celulas">Compras</td>
+                </tr>
+                <tfoot> <!--Rodapé da tabela-->
+                    <th class="celulas" colspan="3">Fim da tabela</th> <!--colspan utilizado para mesclar uma ou mais células-->
+                </tfoot>
+            </tbody>
         </table>
+        <footer> <!--Rodapé da página-->
+            <strong> &copy;Dtech</strong>
+        </footer>
     </body>
 </html>
