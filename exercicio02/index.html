@@ -2,12 +2,31 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>APIs List</title>
+        
     </head>
 
     <body>
+        <header class="cabecalho">
+            <ul>
+                <li>Desenvolvedor: David Esly</li>
+                <li>Setor: NTI</li>
+                <li>Cargo: FullStack Developer</li>
+            </ul>
+        </header>
+        <form action=""> 
+            <select name="apis" id="select" onchange="selectApi(this.value)">
+              <option value="">Select an api category</option>
+           
+            </select>
+          </form>
+          <br>
+        <table id="tabela">
+        </table>
         <script src="jscript.js"></script>
     </body>
+    <footer>&copy;Dtech</footer>
 </html>
